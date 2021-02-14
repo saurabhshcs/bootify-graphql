@@ -6,7 +6,7 @@ plugins {
 
 group = 'com.techsharezone'
 version = '0.0.1-SNAPSHOT'
-sourceCompatibility = '1.8'
+sourceCompatibility = '11'
 
 configurations {
 	compileOnly {
@@ -23,6 +23,7 @@ dependencies {
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
 	implementation 'com.graphql-java-kickstart:graphql-spring-boot-starter:6.0.1'
 	implementation 'com.graphql-java-kickstart:graphiql-spring-boot-starter:6.0.1'
 	implementation 'io.leangen.graphql:spqr:0.10.1'
