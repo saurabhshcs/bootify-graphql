@@ -6,10 +6,13 @@ Alternatively, you can run the application using Gradle. To make it easier to bu
 
 To run the application with Gradle:
 
-$ gradlew bootRun
+`
+./gradlew bootRun
+`
 Or you can build the application with Gradle, then run the resulting WAR file as an executable JAR:
 
-$ gradlew build
-....
+`
+./gradlew build
+`
 
 When running the application from the command line, you can access it at http://localhost:6004 from your browser.
