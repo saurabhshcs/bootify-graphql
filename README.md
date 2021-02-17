@@ -9,10 +9,17 @@ To run the application with Gradle:
 `
 ./gradlew bootRun
 `
-Or you can build the application with Gradle, then run the resulting WAR file as an executable JAR:
+
+Or you can build the application with Gradle
 
 `
 ./gradlew build
 `
 
+
+Run all the test
+
+`
+./gradlew clean test
+`
 When running the application from the command line, you can access it at http://localhost:6004 from your browser.
